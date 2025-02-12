@@ -5,11 +5,16 @@
 [![Requriements Status](https://requires.io/github/lawrencefoley/evergy/requirements.svg?branch=master)](https://requires.io/github/lawrencefoley/evergy/requirements/?branch=master)
 
 A simple utility that you can use to login to your Evergy account and retrieve you meter readings.
+
 - **[Documentation](https://evergy.readthedocs.io/en/latest/)**
 - **[Source Code](https://github.com/lawrencefoley/evergy)**
+
 > **Note: This is an unofficial utility that uses Evergy's non-public API.**
 
 > Previously known as "KCPL"
+
+## ⚠ No Longer Maintained ⚠
+> I no longer have an Evergy account so I can't test this. If you would like to become a maintainer (or even just make small fixes) let me know 🙂
 
 ## Install
 ```
@@ -49,6 +54,10 @@ Latest data:
     'isPartial': False
 }
 ```
+
+## Home Assistant Integration
+There is currently a Home Assistant integration that uses this library. Checkout [TheBradleySanders/Evergy](https://github.com/thebradleysanders/evergy_home_assistant).
+
 ## Related Projects
 - [KC Water](https://github.com/patrickjmcd/kcwater): A similar project developed by [Patrick McDonagh](https://github.com/patrickjmcd). Check it out!
 
